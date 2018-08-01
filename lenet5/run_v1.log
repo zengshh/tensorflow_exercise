@@ -1,0 +1,247 @@
+data/mnist/train-images-idx3-ubyte.gz already exists
+data/mnist/train-labels-idx1-ubyte.gz already exists
+data/mnist/t10k-images-idx3-ubyte.gz already exists
+data/mnist/t10k-labels-idx1-ubyte.gz already exists
+the initial value of step is 0
+Average loss at epoch 0: 1570.9174986373546
+Took: 90.11461901664734 seconds
+Accuracy at epoch 0: 0.9504 
+Took: 2.258733034133911 seconds
+current learning-rate is 0.004750 
+
+current step is 430 
+
+Average loss at epoch 1: 208.1877410178961
+Took: 89.83224868774414 seconds
+Accuracy at epoch 1: 0.9586 
+Took: 2.2089226245880127 seconds
+current learning-rate is 0.004512 
+
+current step is 860 
+
+Average loss at epoch 2: 159.1796915276106
+Took: 90.09520268440247 seconds
+Accuracy at epoch 2: 0.9642 
+Took: 2.2322933673858643 seconds
+current learning-rate is 0.004287 
+
+current step is 1290 
+
+Average loss at epoch 3: 141.42193213174508
+Took: 90.00661420822144 seconds
+Accuracy at epoch 3: 0.9684 
+Took: 2.2186954021453857 seconds
+current learning-rate is 0.004073 
+
+current step is 1720 
+
+Average loss at epoch 4: 130.19671249389648
+Took: 90.34655737876892 seconds
+Accuracy at epoch 4: 0.9708 
+Took: 2.2139365673065186 seconds
+current learning-rate is 0.003869 
+
+current step is 2150 
+
+Average loss at epoch 5: 124.19310164340706
+Took: 91.41758012771606 seconds
+Accuracy at epoch 5: 0.9706 
+Took: 2.2381739616394043 seconds
+current learning-rate is 0.003675 
+
+current step is 2580 
+
+Average loss at epoch 6: 120.32526002041129
+Took: 91.67641735076904 seconds
+Accuracy at epoch 6: 0.9736 
+Took: 2.2538390159606934 seconds
+current learning-rate is 0.003492 
+
+current step is 3010 
+
+Average loss at epoch 7: 117.62099566792332
+Took: 91.71914958953857 seconds
+Accuracy at epoch 7: 0.9776 
+Took: 2.2733328342437744 seconds
+current learning-rate is 0.003317 
+
+current step is 3440 
+
+Average loss at epoch 8: 113.86756744384766
+Took: 91.7703788280487 seconds
+Accuracy at epoch 8: 0.9756 
+Took: 2.273996353149414 seconds
+current learning-rate is 0.003151 
+
+current step is 3870 
+
+Average loss at epoch 9: 111.16602006069449
+Took: 91.70314168930054 seconds
+Accuracy at epoch 9: 0.9776 
+Took: 2.268434524536133 seconds
+current learning-rate is 0.002994 
+
+current step is 4300 
+
+Average loss at epoch 10: 109.10043854824332
+Took: 91.56624627113342 seconds
+Accuracy at epoch 10: 0.977 
+Took: 2.249319314956665 seconds
+current learning-rate is 0.002844 
+
+current step is 4730 
+
+Average loss at epoch 11: 105.69381657090298
+Took: 91.3435742855072 seconds
+Accuracy at epoch 11: 0.9788 
+Took: 2.26076340675354 seconds
+current learning-rate is 0.002702 
+
+current step is 5160 
+
+Average loss at epoch 12: 104.21943802944449
+Took: 91.40355443954468 seconds
+Accuracy at epoch 12: 0.9768 
+Took: 2.236720561981201 seconds
+current learning-rate is 0.002567 
+
+current step is 5590 
+
+Average loss at epoch 13: 102.1768879380337
+Took: 91.49995279312134 seconds
+Accuracy at epoch 13: 0.9808 
+Took: 2.257279396057129 seconds
+current learning-rate is 0.002438 
+
+current step is 6020 
+
+Average loss at epoch 14: 99.82532086039699
+Took: 91.23914670944214 seconds
+Accuracy at epoch 14: 0.98 
+Took: 2.241177797317505 seconds
+current learning-rate is 0.002316 
+
+current step is 6450 
+
+Average loss at epoch 15: 96.59288280398347
+Took: 91.34207439422607 seconds
+Accuracy at epoch 15: 0.9824 
+Took: 2.237928867340088 seconds
+current learning-rate is 0.002201 
+
+current step is 6880 
+
+Average loss at epoch 16: 95.00231271788131
+Took: 91.39326238632202 seconds
+Accuracy at epoch 16: 0.9788 
+Took: 2.2339534759521484 seconds
+current learning-rate is 0.002091 
+
+current step is 7310 
+
+Average loss at epoch 17: 92.27037428035293
+Took: 91.17328715324402 seconds
+Accuracy at epoch 17: 0.9848 
+Took: 2.255164861679077 seconds
+current learning-rate is 0.001986 
+
+current step is 7740 
+
+Average loss at epoch 18: 89.7881957652957
+Took: 91.8258159160614 seconds
+Accuracy at epoch 18: 0.9812 
+Took: 2.2545902729034424 seconds
+current learning-rate is 0.001887 
+
+current step is 8170 
+
+Average loss at epoch 19: 86.92986622300259
+Took: 91.65065908432007 seconds
+Accuracy at epoch 19: 0.9796 
+Took: 2.240722417831421 seconds
+current learning-rate is 0.001792 
+
+current step is 8600 
+
+Average loss at epoch 20: 84.11309010705283
+Took: 91.61210322380066 seconds
+Accuracy at epoch 20: 0.9814 
+Took: 2.25616717338562 seconds
+current learning-rate is 0.001703 
+
+current step is 9030 
+
+Average loss at epoch 21: 81.57372074570766
+Took: 91.73642897605896 seconds
+Accuracy at epoch 21: 0.9834 
+Took: 2.2489125728607178 seconds
+current learning-rate is 0.001618 
+
+current step is 9460 
+
+Average loss at epoch 22: 78.89160113667333
+Took: 91.57083106040955 seconds
+Accuracy at epoch 22: 0.985 
+Took: 2.2377779483795166 seconds
+current learning-rate is 0.001537 
+
+current step is 9890 
+
+Average loss at epoch 23: 76.6369360635447
+Took: 91.51956844329834 seconds
+Accuracy at epoch 23: 0.9832 
+Took: 2.2527034282684326 seconds
+current learning-rate is 0.001460 
+
+current step is 10320 
+
+Average loss at epoch 24: 73.77059425531432
+Took: 91.28934597969055 seconds
+Accuracy at epoch 24: 0.9836 
+Took: 2.2394044399261475 seconds
+current learning-rate is 0.001387 
+
+current step is 10750 
+
+Average loss at epoch 25: 70.98232247995776
+Took: 95.8757176399231 seconds
+Accuracy at epoch 25: 0.9828 
+Took: 2.285688638687134 seconds
+current learning-rate is 0.001318 
+
+current step is 11180 
+
+Average loss at epoch 26: 68.31259866758835
+Took: 92.90883708000183 seconds
+Accuracy at epoch 26: 0.982 
+Took: 2.288722515106201 seconds
+current learning-rate is 0.001252 
+
+current step is 11610 
+
+Average loss at epoch 27: 65.71225454640943
+Took: 93.02687525749207 seconds
+Accuracy at epoch 27: 0.9834 
+Took: 2.2776753902435303 seconds
+current learning-rate is 0.001189 
+
+current step is 12040 
+
+Average loss at epoch 28: 63.20630992623263
+Took: 93.08201026916504 seconds
+Accuracy at epoch 28: 0.9832 
+Took: 2.289747953414917 seconds
+current learning-rate is 0.001130 
+
+current step is 12470 
+
+Average loss at epoch 29: 60.661745222224745
+Took: 92.86359333992004 seconds
+Accuracy at epoch 29: 0.9852 
+Took: 2.2714192867279053 seconds
+current learning-rate is 0.001073 
+
+current step is 12900 
+
+Accuracy at test dataset : 0.987 
+Took: 5.31464409828186 seconds

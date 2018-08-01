@@ -1,0 +1,217 @@
+data/mnist/train-images-idx3-ubyte.gz already exists
+data/mnist/train-labels-idx1-ubyte.gz already exists
+data/mnist/t10k-images-idx3-ubyte.gz already exists
+data/mnist/t10k-labels-idx1-ubyte.gz already exists
+the initial value of step is 0
+Average loss at epoch 0: 3558.009775631927
+Took: 90.38322162628174 seconds
+Accuracy at epoch 0: 0.9058 
+Took: 2.233994722366333 seconds
+current step is 430 
+
+Average loss at epoch 1: 453.1114784950434
+Took: 104.27673697471619 seconds
+Accuracy at epoch 1: 0.9394 
+Took: 5.307422161102295 seconds
+current step is 860 
+
+Average loss at epoch 2: 237.72280753379644
+Took: 164.33921098709106 seconds
+Accuracy at epoch 2: 0.954 
+Took: 5.167773962020874 seconds
+current step is 1290 
+
+Average loss at epoch 3: 154.67302114797192
+Took: 163.37379813194275 seconds
+Accuracy at epoch 3: 0.9572 
+Took: 4.189167499542236 seconds
+current step is 1720 
+
+Average loss at epoch 4: 104.10074659433475
+Took: 164.22186255455017 seconds
+Accuracy at epoch 4: 0.9624 
+Took: 4.226277828216553 seconds
+current step is 2150 
+
+Average loss at epoch 5: 75.88707684630225
+Took: 165.05090856552124 seconds
+Accuracy at epoch 5: 0.963 
+Took: 4.2290873527526855 seconds
+current step is 2580 
+
+Average loss at epoch 6: 56.7524411900099
+Took: 164.94946956634521 seconds
+Accuracy at epoch 6: 0.9626 
+Took: 4.197264909744263 seconds
+current step is 3010 
+
+Average loss at epoch 7: 43.17746666226276
+Took: 166.5853991508484 seconds
+Accuracy at epoch 7: 0.9686 
+Took: 4.56788444519043 seconds
+current step is 3440 
+
+Average loss at epoch 8: 35.61005829996971
+Took: 169.46286797523499 seconds
+Accuracy at epoch 8: 0.9676 
+Took: 4.299213409423828 seconds
+current step is 3870 
+
+Average loss at epoch 9: 30.091779634068363
+Took: 169.71164393424988 seconds
+Accuracy at epoch 9: 0.9656 
+Took: 4.44692063331604 seconds
+current step is 4300 
+
+Average loss at epoch 10: 23.41637857750621
+Took: 171.37212228775024 seconds
+Accuracy at epoch 10: 0.9698 
+Took: 4.309171199798584 seconds
+current step is 4730 
+
+Average loss at epoch 11: 19.030600064616046
+Took: 172.56835651397705 seconds
+Accuracy at epoch 11: 0.9706 
+Took: 4.473735332489014 seconds
+current step is 5160 
+
+Average loss at epoch 12: 17.55446150016593
+Took: 170.39567804336548 seconds
+Accuracy at epoch 12: 0.9724 
+Took: 4.42167592048645 seconds
+current step is 5590 
+
+Average loss at epoch 13: 14.532548858361155
+Took: 276.02766394615173 seconds
+Accuracy at epoch 13: 0.9698 
+Took: 4.404617786407471 seconds
+current step is 6020 
+
+Average loss at epoch 14: 13.250347500537355
+Took: 174.93164658546448 seconds
+Accuracy at epoch 14: 0.9746 
+Took: 2.4000167846679688 seconds
+current step is 6450 
+
+Average loss at epoch 15: 11.53108113626515
+Took: 173.8558464050293 seconds
+Accuracy at epoch 15: 0.9766 
+Took: 2.5194807052612305 seconds
+current step is 6880 
+
+Average loss at epoch 16: 10.273807102547906
+Took: 200.35346055030823 seconds
+Accuracy at epoch 16: 0.9754 
+Took: 6.904969215393066 seconds
+current step is 7310 
+
+Average loss at epoch 17: 10.337324218869718
+Took: 252.7955150604248 seconds
+Accuracy at epoch 17: 0.9772 
+Took: 6.689965009689331 seconds
+current step is 7740 
+
+Average loss at epoch 18: 9.241033455487138
+Took: 253.44721031188965 seconds
+Accuracy at epoch 18: 0.977 
+Took: 6.611799478530884 seconds
+current step is 8170 
+
+Average loss at epoch 19: 7.846158550872614
+Took: 260.63189125061035 seconds
+Accuracy at epoch 19: 0.9768 
+Took: 6.603152275085449 seconds
+current step is 8600 
+
+Average loss at epoch 20: 6.805430877855209
+Took: 251.39117741584778 seconds
+Accuracy at epoch 20: 0.9726 
+Took: 9.060284852981567 seconds
+current step is 9030 
+
+Average loss at epoch 21: 7.137154780377146
+Took: 256.6111969947815 seconds
+Accuracy at epoch 21: 0.9796 
+Took: 6.980608701705933 seconds
+current step is 9460 
+
+Average loss at epoch 22: 6.3987001546101165
+Took: 255.62806725502014 seconds
+Accuracy at epoch 22: 0.9766 
+Took: 7.001376628875732 seconds
+current step is 9890 
+
+Average loss at epoch 23: 5.5325116648218255
+Took: 254.6123447418213 seconds
+Accuracy at epoch 23: 0.9786 
+Took: 6.716858148574829 seconds
+current step is 10320 
+
+Average loss at epoch 24: 5.616247781864591
+Took: 255.79634189605713 seconds
+Accuracy at epoch 24: 0.9768 
+Took: 6.771036863327026 seconds
+current step is 10750 
+
+Average loss at epoch 25: 4.825540184526679
+Took: 250.0844259262085 seconds
+Accuracy at epoch 25: 0.9746 
+Took: 6.727607488632202 seconds
+current step is 11180 
+
+Average loss at epoch 26: 4.544859370506666
+Took: 253.66244292259216 seconds
+Accuracy at epoch 26: 0.98 
+Took: 6.741501569747925 seconds
+current step is 11610 
+
+Average loss at epoch 27: 3.6818911718767744
+Took: 257.16210532188416 seconds
+Accuracy at epoch 27: 0.9794 
+Took: 6.729987144470215 seconds
+current step is 12040 
+
+Average loss at epoch 28: 4.137844244264017
+Took: 259.6189684867859 seconds
+Accuracy at epoch 28: 0.979 
+Took: 6.999762058258057 seconds
+current step is 12470 
+
+Average loss at epoch 29: 4.555223832874109
+Took: 256.58377861976624 seconds
+Accuracy at epoch 29: 0.9794 
+Took: 7.057508945465088 seconds
+current step is 12900 
+
+Average loss at epoch 30: 3.4566301424900256
+Took: 256.22010016441345 seconds
+Accuracy at epoch 30: 0.983 
+Took: 6.90652322769165 seconds
+current step is 13330 
+
+Average loss at epoch 31: 3.357266509104085
+Took: 256.41968417167664 seconds
+Accuracy at epoch 31: 0.9826 
+Took: 7.284220933914185 seconds
+current step is 13760 
+
+Average loss at epoch 32: 3.2376690583168215
+Took: 249.26654720306396 seconds
+Accuracy at epoch 32: 0.9796 
+Took: 6.548449277877808 seconds
+current step is 14190 
+
+Average loss at epoch 33: 3.0483755179853964
+Took: 251.00915122032166 seconds
+Accuracy at epoch 33: 0.9806 
+Took: 6.774662971496582 seconds
+current step is 14620 
+
+Average loss at epoch 34: 3.3509733949055582
+Took: 247.55633068084717 seconds
+Accuracy at epoch 34: 0.9804 
+Took: 6.797418594360352 seconds
+current step is 15050 
+
+Accuracy at test dataset : 0.9852 
+Took: 20.54976797103882 seconds
