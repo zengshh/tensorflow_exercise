@@ -2,9 +2,9 @@ import tensorflow as tf
 import os 
 import matplotlib.pyplot as plt
 
-MODEL_PATH = "../checkpoints"
+MODEL_PATH = "checkpoints"
 MODEL_NAME = "lenet.ckpt"
-
+DUMP_PATH = "dump"
 mnist_vars = [['conv1/weights', 'conv1/biases'],
                 ['conv2/weights', 'conv2/biases'],
                 ['fc/weights', 'fc/biases'],
@@ -32,14 +32,14 @@ def dump_data(arr, element):
 
     if str_list[-1] == 'biases':
         name = element.replace('/', '_')    #refer to python string for more operations
-        with open(name+'.txt', 'w') as data:
+        with open(os.path.join(DUMP_PATH, name+'.txt'), 'w') as data:
             L = arr.size
             for l in range(L):
                 print(arr[l], end=' ', file=data)
     elif str_list[-1] != 'Adam_1' and str_list[-1] != 'Adam':
         if element[:4] == 'conv' : #here assume we have know the name
             name = element.replace('/', '_')    #refer to python string for more operations
-            with open(name+'.txt', 'w') as data:
+            with open(os.path.join(DUMP_PATH, name+'.txt'), 'w') as data:
                 N, H, W, C = arr.shape
                 for n in range(N):
                     for h in range(H):
@@ -52,7 +52,7 @@ def dump_data(arr, element):
 
         elif element[:2] == 'fc':
             name = element.replace('/', '_')
-            with open(name+'.txt', 'w') as data:
+            with open(os.path.join(DUMP_PATH, name+'.txt'), 'w') as data:
                 H, W = arr.shape
                 for h in range(H):
                     for w in range(W):
@@ -61,7 +61,7 @@ def dump_data(arr, element):
         
         elif element[:5] == 'logit':       #the last layer, usually it is fc
             name = element.replace('/', '_')
-            with open(name+'.txt', 'w') as data:
+            with open(os.path.join(DUMP_PATH, name+'.txt'), 'w') as data:
                 H, W = arr.shape
                 for h in range(H):
                     for w in range(W):
@@ -87,5 +87,5 @@ with tf.Session() as sess:
         dump_data(arr, element)
         #arr = arr.reshape(1, arr.size)  #it costs much time and report warning.
         arr = arr.reshape(-1) #equal to reshape(arr.size), but this is better.  shape is (n, )
-        draw_distribution(arr)
+        #draw_distribution(arr)
         

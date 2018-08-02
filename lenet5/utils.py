@@ -83,7 +83,7 @@ def download_mnist(path):
         local_dest = os.path.join(path, filename)
         download_one_file(download_url, local_dest, byte, True)
 
-def parse_data(path, dataset, flatten):
+def parse_data(path, dataset, flatten):     #parse data from the initial format
     if dataset != 'train' and dataset != 't10k':
         raise NameError('dataset must be train or t10k')
 
@@ -131,7 +131,7 @@ def get_mnist_dataset(batch_size):
     # Step 1: Read in data
     mnist_folder = 'data/mnist'
     download_mnist(mnist_folder)
-    train, val, test = read_mnist(mnist_folder, flatten=False)
+    train, val, test = read_mnist(mnist_folder, flatten=False) #Attention! donn't need to flatten.
 
     # Step 2: Create datasets and iterator
     train_data = tf.data.Dataset.from_tensor_slices(train)
