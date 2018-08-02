@@ -3,245 +3,325 @@ data/mnist/train-labels-idx1-ubyte.gz already exists
 data/mnist/t10k-images-idx3-ubyte.gz already exists
 data/mnist/t10k-labels-idx1-ubyte.gz already exists
 the initial value of step is 0
-Average loss at epoch 0: 1570.9174986373546
-Took: 90.11461901664734 seconds
-Accuracy at epoch 0: 0.9504 
-Took: 2.258733034133911 seconds
+Average loss at epoch 0: 1824.726630188698
+Took: 94.61919593811035 seconds
+Accuracy at epoch 0: 0.953 
+Took: 2.6459991931915283 seconds
 current learning-rate is 0.004750 
 
 current step is 430 
 
-Average loss at epoch 1: 208.1877410178961
-Took: 89.83224868774414 seconds
-Accuracy at epoch 1: 0.9586 
-Took: 2.2089226245880127 seconds
+Average loss at epoch 1: 194.07831493643826
+Took: 94.746652841568 seconds
+Accuracy at epoch 1: 0.9604 
+Took: 2.283031940460205 seconds
 current learning-rate is 0.004512 
 
 current step is 860 
 
-Average loss at epoch 2: 159.1796915276106
-Took: 90.09520268440247 seconds
-Accuracy at epoch 2: 0.9642 
-Took: 2.2322933673858643 seconds
+Average loss at epoch 2: 149.55825933412063
+Took: 93.70309376716614 seconds
+Accuracy at epoch 2: 0.9628 
+Took: 2.3203210830688477 seconds
 current learning-rate is 0.004287 
 
 current step is 1290 
 
-Average loss at epoch 3: 141.42193213174508
-Took: 90.00661420822144 seconds
-Accuracy at epoch 3: 0.9684 
-Took: 2.2186954021453857 seconds
+Average loss at epoch 3: 134.1613016350325
+Took: 93.86690545082092 seconds
+Accuracy at epoch 3: 0.9718 
+Took: 2.3008124828338623 seconds
 current learning-rate is 0.004073 
 
 current step is 1720 
 
-Average loss at epoch 4: 130.19671249389648
-Took: 90.34655737876892 seconds
-Accuracy at epoch 4: 0.9708 
-Took: 2.2139365673065186 seconds
+Average loss at epoch 4: 122.91583076299624
+Took: 93.54867386817932 seconds
+Accuracy at epoch 4: 0.9722 
+Took: 2.289754867553711 seconds
 current learning-rate is 0.003869 
 
 current step is 2150 
 
-Average loss at epoch 5: 124.19310164340706
-Took: 91.41758012771606 seconds
-Accuracy at epoch 5: 0.9706 
-Took: 2.2381739616394043 seconds
+Average loss at epoch 5: 117.06167700124341
+Took: 95.10878682136536 seconds
+Accuracy at epoch 5: 0.977 
+Took: 2.3087568283081055 seconds
 current learning-rate is 0.003675 
 
 current step is 2580 
 
-Average loss at epoch 6: 120.32526002041129
-Took: 91.67641735076904 seconds
-Accuracy at epoch 6: 0.9736 
-Took: 2.2538390159606934 seconds
+Average loss at epoch 6: 114.83857897381449
+Took: 94.83257365226746 seconds
+Accuracy at epoch 6: 0.9756 
+Took: 2.2826974391937256 seconds
 current learning-rate is 0.003492 
 
 current step is 3010 
 
-Average loss at epoch 7: 117.62099566792332
-Took: 91.71914958953857 seconds
-Accuracy at epoch 7: 0.9776 
-Took: 2.2733328342437744 seconds
+Average loss at epoch 7: 110.06348960344181
+Took: 94.36236023902893 seconds
+Accuracy at epoch 7: 0.9788 
+Took: 2.331740140914917 seconds
 current learning-rate is 0.003317 
 
 current step is 3440 
 
-Average loss at epoch 8: 113.86756744384766
-Took: 91.7703788280487 seconds
-Accuracy at epoch 8: 0.9756 
-Took: 2.273996353149414 seconds
+Average loss at epoch 8: 106.17206954956055
+Took: 94.77071332931519 seconds
+Accuracy at epoch 8: 0.9794 
+Took: 2.3089423179626465 seconds
 current learning-rate is 0.003151 
 
 current step is 3870 
 
-Average loss at epoch 9: 111.16602006069449
-Took: 91.70314168930054 seconds
-Accuracy at epoch 9: 0.9776 
-Took: 2.268434524536133 seconds
+Average loss at epoch 9: 103.81598768012468
+Took: 96.54800415039062 seconds
+Accuracy at epoch 9: 0.979 
+Took: 2.5042412281036377 seconds
 current learning-rate is 0.002994 
 
 current step is 4300 
 
-Average loss at epoch 10: 109.10043854824332
-Took: 91.56624627113342 seconds
-Accuracy at epoch 10: 0.977 
-Took: 2.249319314956665 seconds
+Average loss at epoch 10: 101.87214978240257
+Took: 94.9410469532013 seconds
+Accuracy at epoch 10: 0.9764 
+Took: 2.313049793243408 seconds
 current learning-rate is 0.002844 
 
 current step is 4730 
 
-Average loss at epoch 11: 105.69381657090298
-Took: 91.3435742855072 seconds
-Accuracy at epoch 11: 0.9788 
-Took: 2.26076340675354 seconds
+Average loss at epoch 11: 99.53744824431664
+Took: 94.63521790504456 seconds
+Accuracy at epoch 11: 0.9812 
+Took: 2.2899115085601807 seconds
 current learning-rate is 0.002702 
 
 current step is 5160 
 
-Average loss at epoch 12: 104.21943802944449
-Took: 91.40355443954468 seconds
-Accuracy at epoch 12: 0.9768 
-Took: 2.236720561981201 seconds
+Average loss at epoch 12: 96.11075464293015
+Took: 94.01014637947083 seconds
+Accuracy at epoch 12: 0.9822 
+Took: 2.3119659423828125 seconds
 current learning-rate is 0.002567 
 
 current step is 5590 
 
-Average loss at epoch 13: 102.1768879380337
-Took: 91.49995279312134 seconds
-Accuracy at epoch 13: 0.9808 
-Took: 2.257279396057129 seconds
+Average loss at epoch 13: 94.08807687094045
+Took: 95.23532962799072 seconds
+Accuracy at epoch 13: 0.9772 
+Took: 2.2963247299194336 seconds
 current learning-rate is 0.002438 
 
 current step is 6020 
 
-Average loss at epoch 14: 99.82532086039699
-Took: 91.23914670944214 seconds
-Accuracy at epoch 14: 0.98 
-Took: 2.241177797317505 seconds
+Average loss at epoch 14: 91.69512046991393
+Took: 94.21123909950256 seconds
+Accuracy at epoch 14: 0.981 
+Took: 2.340808868408203 seconds
 current learning-rate is 0.002316 
 
 current step is 6450 
 
-Average loss at epoch 15: 96.59288280398347
-Took: 91.34207439422607 seconds
-Accuracy at epoch 15: 0.9824 
-Took: 2.237928867340088 seconds
+Average loss at epoch 15: 88.52987131517988
+Took: 94.83030128479004 seconds
+Accuracy at epoch 15: 0.984 
+Took: 2.3127195835113525 seconds
 current learning-rate is 0.002201 
 
 current step is 6880 
 
-Average loss at epoch 16: 95.00231271788131
-Took: 91.39326238632202 seconds
+Average loss at epoch 16: 86.79348871985147
+Took: 94.26003456115723 seconds
 Accuracy at epoch 16: 0.9788 
-Took: 2.2339534759521484 seconds
+Took: 2.2921366691589355 seconds
 current learning-rate is 0.002091 
 
 current step is 7310 
 
-Average loss at epoch 17: 92.27037428035293
-Took: 91.17328715324402 seconds
-Accuracy at epoch 17: 0.9848 
-Took: 2.255164861679077 seconds
+Average loss at epoch 17: 84.05628420807595
+Took: 94.40104269981384 seconds
+Accuracy at epoch 17: 0.9836 
+Took: 2.2889084815979004 seconds
 current learning-rate is 0.001986 
 
 current step is 7740 
 
-Average loss at epoch 18: 89.7881957652957
-Took: 91.8258159160614 seconds
-Accuracy at epoch 18: 0.9812 
-Took: 2.2545902729034424 seconds
+Average loss at epoch 18: 81.7758643216865
+Took: 92.37497854232788 seconds
+Accuracy at epoch 18: 0.9868 
+Took: 2.2844724655151367 seconds
 current learning-rate is 0.001887 
 
 current step is 8170 
 
-Average loss at epoch 19: 86.92986622300259
-Took: 91.65065908432007 seconds
-Accuracy at epoch 19: 0.9796 
-Took: 2.240722417831421 seconds
+Average loss at epoch 19: 79.18806776889535
+Took: 92.54552340507507 seconds
+Accuracy at epoch 19: 0.984 
+Took: 2.3114163875579834 seconds
 current learning-rate is 0.001792 
 
 current step is 8600 
 
-Average loss at epoch 20: 84.11309010705283
-Took: 91.61210322380066 seconds
-Accuracy at epoch 20: 0.9814 
-Took: 2.25616717338562 seconds
+Average loss at epoch 20: 76.81756905844045
+Took: 95.11988282203674 seconds
+Accuracy at epoch 20: 0.983 
+Took: 2.3701398372650146 seconds
 current learning-rate is 0.001703 
 
 current step is 9030 
 
-Average loss at epoch 21: 81.57372074570766
-Took: 91.73642897605896 seconds
-Accuracy at epoch 21: 0.9834 
-Took: 2.2489125728607178 seconds
+Average loss at epoch 21: 74.1567997599757
+Took: 94.06068515777588 seconds
+Accuracy at epoch 21: 0.9858 
+Took: 2.3447089195251465 seconds
 current learning-rate is 0.001618 
 
 current step is 9460 
 
-Average loss at epoch 22: 78.89160113667333
-Took: 91.57083106040955 seconds
-Accuracy at epoch 22: 0.985 
-Took: 2.2377779483795166 seconds
+Average loss at epoch 22: 71.79653840175895
+Took: 94.44746470451355 seconds
+Accuracy at epoch 22: 0.9826 
+Took: 2.312021017074585 seconds
 current learning-rate is 0.001537 
 
 current step is 9890 
 
-Average loss at epoch 23: 76.6369360635447
-Took: 91.51956844329834 seconds
-Accuracy at epoch 23: 0.9832 
-Took: 2.2527034282684326 seconds
+Average loss at epoch 23: 69.09473447577898
+Took: 96.54390048980713 seconds
+Accuracy at epoch 23: 0.9842 
+Took: 2.242846965789795 seconds
 current learning-rate is 0.001460 
 
 current step is 10320 
 
-Average loss at epoch 24: 73.77059425531432
-Took: 91.28934597969055 seconds
-Accuracy at epoch 24: 0.9836 
-Took: 2.2394044399261475 seconds
+Average loss at epoch 24: 66.70682357078375
+Took: 95.19426250457764 seconds
+Accuracy at epoch 24: 0.9828 
+Took: 2.323707103729248 seconds
 current learning-rate is 0.001387 
 
 current step is 10750 
 
-Average loss at epoch 25: 70.98232247995776
-Took: 95.8757176399231 seconds
-Accuracy at epoch 25: 0.9828 
-Took: 2.285688638687134 seconds
+Average loss at epoch 25: 64.30888427911803
+Took: 96.35676217079163 seconds
+Accuracy at epoch 25: 0.9854 
+Took: 2.346858024597168 seconds
 current learning-rate is 0.001318 
 
 current step is 11180 
 
-Average loss at epoch 26: 68.31259866758835
-Took: 92.90883708000183 seconds
-Accuracy at epoch 26: 0.982 
-Took: 2.288722515106201 seconds
+Average loss at epoch 26: 61.716329104401346
+Took: 95.51607489585876 seconds
+Accuracy at epoch 26: 0.9834 
+Took: 2.35203218460083 seconds
 current learning-rate is 0.001252 
 
 current step is 11610 
 
-Average loss at epoch 27: 65.71225454640943
-Took: 93.02687525749207 seconds
-Accuracy at epoch 27: 0.9834 
-Took: 2.2776753902435303 seconds
+Average loss at epoch 27: 59.45580284650936
+Took: 96.52111840248108 seconds
+Accuracy at epoch 27: 0.9852 
+Took: 2.308427095413208 seconds
 current learning-rate is 0.001189 
 
 current step is 12040 
 
-Average loss at epoch 28: 63.20630992623263
-Took: 93.08201026916504 seconds
-Accuracy at epoch 28: 0.9832 
-Took: 2.289747953414917 seconds
+Average loss at epoch 28: 57.041819044601084
+Took: 95.65931510925293 seconds
+Accuracy at epoch 28: 0.9858 
+Took: 2.310960292816162 seconds
 current learning-rate is 0.001130 
 
 current step is 12470 
 
-Average loss at epoch 29: 60.661745222224745
-Took: 92.86359333992004 seconds
-Accuracy at epoch 29: 0.9852 
-Took: 2.2714192867279053 seconds
+Average loss at epoch 29: 54.83655229612838
+Took: 95.61709713935852 seconds
+Accuracy at epoch 29: 0.9848 
+Took: 2.2972519397735596 seconds
 current learning-rate is 0.001073 
 
 current step is 12900 
 
-Accuracy at test dataset : 0.987 
-Took: 5.31464409828186 seconds
+Average loss at epoch 30: 52.58097207712573
+Took: 94.36047601699829 seconds
+Accuracy at epoch 30: 0.9878 
+Took: 2.2987051010131836 seconds
+current learning-rate is 0.001020 
+
+current step is 13330 
+
+Average loss at epoch 31: 50.343284518219704
+Took: 94.16065263748169 seconds
+Accuracy at epoch 31: 0.9854 
+Took: 2.3021883964538574 seconds
+current learning-rate is 0.000969 
+
+current step is 13760 
+
+Average loss at epoch 32: 48.26252238251442
+Took: 95.02281260490417 seconds
+Accuracy at epoch 32: 0.9866 
+Took: 2.296476125717163 seconds
+current learning-rate is 0.000920 
+
+current step is 14190 
+
+Average loss at epoch 33: 46.548898776741915
+Took: 95.8905279636383 seconds
+Accuracy at epoch 33: 0.9846 
+Took: 2.2873966693878174 seconds
+current learning-rate is 0.000874 
+
+current step is 14620 
+
+Average loss at epoch 34: 44.66685850453931
+Took: 95.66656947135925 seconds
+Accuracy at epoch 34: 0.9862 
+Took: 2.331106662750244 seconds
+current learning-rate is 0.000830 
+
+current step is 15050 
+
+Average loss at epoch 35: 42.5515659598417
+Took: 95.86786389350891 seconds
+Accuracy at epoch 35: 0.9866 
+Took: 2.4503774642944336 seconds
+current learning-rate is 0.000789 
+
+current step is 15480 
+
+Average loss at epoch 36: 40.88633543502453
+Took: 95.62477278709412 seconds
+Accuracy at epoch 36: 0.9884 
+Took: 2.3240251541137695 seconds
+current learning-rate is 0.000749 
+
+current step is 15910 
+
+Average loss at epoch 37: 39.075836004212846
+Took: 95.90947794914246 seconds
+Accuracy at epoch 37: 0.9868 
+Took: 2.3624444007873535 seconds
+current learning-rate is 0.000712 
+
+current step is 16340 
+
+Average loss at epoch 38: 37.568125853427624
+Took: 95.03185105323792 seconds
+Accuracy at epoch 38: 0.9876 
+Took: 2.3145861625671387 seconds
+current learning-rate is 0.000676 
+
+current step is 16770 
+
+Average loss at epoch 39: 36.06788747033408
+Took: 96.53621029853821 seconds
+Accuracy at epoch 39: 0.9874 
+Took: 2.4100182056427 seconds
+current learning-rate is 0.000643 
+
+current step is 17200 
+
+Accuracy at test dataset : 0.9876 
+Took: 8.001793384552002 seconds
