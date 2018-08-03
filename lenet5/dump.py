@@ -10,11 +10,11 @@ mnist_vars = [['conv1/weights', 'conv1/biases'],
                 ['fc/weights', 'fc/biases'],
                 ['logits/weights', 'logits/biases']]
 
-def draw_distribution(data):
+def draw_distribution(data, element):
     plt.hist(data, 100)
     plt.xlabel('Vars')
     plt.ylabel('Frequency')
-    plt.title('Vars Distribution')
+    plt.title('%s Distribution' % element)
     plt.show()
     
 def dump_data(arr, element):
@@ -84,8 +84,7 @@ with tf.Session() as sess:
         print("tensor name : ", element, end='\t')
         print(arr.shape)
 
-        dump_data(arr, element)
-        #arr = arr.reshape(1, arr.size)  #it costs much time and report warning.
+        #dump_data(arr, element)
         arr = arr.reshape(-1) #equal to reshape(arr.size), but this is better.  shape is (n, )
-        #draw_distribution(arr)
+        draw_distribution(arr, element)
         
