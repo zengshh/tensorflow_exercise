@@ -82,7 +82,7 @@ class ConvNet(object):
         self.training = True
         self.dump = False
 
-        self.lr_base = 0.005  #when value is 0.1, the optimizer cannot convergence.
+        self.lr_base = 0.002  #when value is 0.1, the optimizer cannot convergence.
         self.lr_decay = 0.95
         self.regularization_rate = 0.0001
 
@@ -294,13 +294,13 @@ class ConvNet(object):
         #       dump the output of inter-layers                       # 
         #-------------------------------------------------------------#
             else:
-                test_num = 1
+                test_num = 100        #numer of test, for analysing hte inter-layers output.
                 test_list = []                                      #define an empty list
                 total_correct_preds = 0 
                 for i in range(test_num):
                     accuracy_batch = sess.run(self.accuracy)
                     total_correct_preds += accuracy_batch
-                    test_list.append(self.logits.eval())             #here collect the conv2 output. you can change it
+                    test_list.append(self.conv2.eval())             #here collect the conv2 output. you can change it
                 
                 test_array = np.array(test_list)                    #if conv-layers, shape is (test_num, h, w, c)
                 test_array = test_array.reshape((-1, ))                 #convert to 1-D array
@@ -311,7 +311,7 @@ class ConvNet(object):
 
 if __name__ == '__main__':
     model = ConvNet()
-    #model.dump = True              #if you want to observe the inter-layers result distribution, please uncomment it. It should be commented while training 
+    model.dump = True              #if you want to observe the inter-layers result distribution, please uncomment it. It should be commented while training 
     model.build()
     #model.train(n_epochs=40)       #after trained, this is not necessary for test and it saves time.
     model.test()
